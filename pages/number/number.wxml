@@ -1,0 +1,6 @@
+<!--pages/number/number.wxml-->
+<view class='container'>
+  <view>{{text}}</view>
+  <view>{{num}}</view>
+  <button bindtap='addNumber'>ADD</button>
+</view>

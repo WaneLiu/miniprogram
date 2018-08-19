@@ -44,11 +44,24 @@ Page({
     }
   },
   getUserInfo: function(e) {
-    console.log(e)
+    console.log('getUserInfo: ' + e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+  clickMe: function() {
+    wx.scanCode({
+      success: (res) => {
+        console.log(res)
+      }
+    })
+    this.setData({msg: "hello cx"})
+  },
+  onTabItemTap(item) {
+    console.log("item.index: " + item.index)
+    console.log("item.pagePath: " +item.pagePath)
+    console.log("item.text: " + item.text)
+  } 
 })
