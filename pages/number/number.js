@@ -6,8 +6,19 @@ Page({
    */
   data: {
     text: 'init data',
-    array: [{'msg': 1}, {'msg': 2}],
-    num: 1 
+    array: [{
+      message: 'foo',
+    }, {
+      message: 'bar'
+    }],
+    num: 1,
+    view: 'MINA',
+    staffA: { firstName: 'Liu', lastName: 'Feng' },
+    staffB: { firstName: 'Chen', lastName: 'Xi' },
+    staffC: { firstName: 'Guo', lastName: 'Qing' },
+    objA: {foo: 1, bar: 2},
+    objB: {foo: 3, bar: 4},
+    objC: {foo: 5, bar: 6} 
   },
 
   /**
