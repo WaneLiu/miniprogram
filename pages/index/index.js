@@ -51,7 +51,8 @@ Page({
       hasUserInfo: true
     })
   },
-  clickMe: function() {
+  clickMe: function(e) {
+    console.log(e)
     wx.scanCode({
       success: (res) => {
         console.log(res)

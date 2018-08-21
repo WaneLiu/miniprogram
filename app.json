@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/number/number"
+    "pages/number/number",
+    "pages/wxs",
+    "pages/wxs-module/wxs-module"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -20,8 +22,8 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "pagePath": "pages/wxs-module/wxs-module",
+        "text": "module"
       },
       {
         "pagePath": "pages/number/number",
